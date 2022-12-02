@@ -1,0 +1,23 @@
+{
+	"name": "node-logger",
+	"version": "1.0.0",
+	"description": "A npm package to handle logs",
+	"main": "index.js",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/makstyle119/node-logger.js.git"
+	},
+	"keywords": [
+		"Node",
+		"Logger",
+		"Node.js-Log",
+		"Node-Logger.js"
+	],
+	"author": "Mohammad Moiz Ali (MAKSTYLE119)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/makstyle119/error-logger.js/issues"
+	},
+	"homepage": "https://github.com/makstyle119/error-logger.js#readme"
+}
