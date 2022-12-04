@@ -1,13 +1,18 @@
-import fs from 'fs';
+const fs = require('fs');
+const dir = 'log';
 
-let date = new Date().toJSON().slice(0, 10);
-let time = new Date().toJSON();
+if (!fs.existsSync(dir)) {
+	fs.mkdirSync(dir);
+}
+
+const date = new Date().toJSON().slice(0, 10);
+const time = new Date().toJSON();
 
 const Logger = (data) => {
-	let body = time + ' ' + data + '\n';
-	fs.appendFile(`log/${date}` + '.txt', body, 'utf8', function (err) {
+	const body = time + ' ' + data + '\n';
+	fs.appendFile(`${dir}/${date}` + '.txt', body, 'utf8', function (err) {
 		if (err) throw err;
 	});
 };
 
-export default Logger;
+module.exports = Logger;

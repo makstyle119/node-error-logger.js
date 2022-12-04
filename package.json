@@ -1,6 +1,6 @@
 {
 	"name": "node-error-logger.js",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A npm package to handle logs",
 	"main": "index.js",
 	"scripts": {},
