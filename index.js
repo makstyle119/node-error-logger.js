@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const appRoot = path.dirname(require.main.filename); 
+const appRoot = path.dirname(require.main.filename); // Get the root directory of the app
 
 const logDirectory = path.join(appRoot, 'logs');
 const logLevels = ['info', 'warn', 'error'];
