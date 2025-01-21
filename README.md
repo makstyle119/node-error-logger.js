@@ -16,7 +16,7 @@ npm i node-error-logger.js
 ## Usage
 1. Import the Logger module:
 ```JavaScript
-const Logger = require('node-error-logger');
+const Logger = require('node-error-logger.js');
 ```
 2. Use the provided logging functions:
 ```JavaScript
@@ -34,7 +34,7 @@ Logger.error('An error occurred!', myError);
 
 ## Example:
 ```JavaScript
-const Logger = require('node-error-logger');
+const Logger = require('node-error-logger.js');
 
 // Log messages throughout your application
 Logger.info('Processing data...');
