@@ -1,27 +1,34 @@
 {
 	"name": "node-error-logger.js",
-	"version": "1.0.4", 
-	"description": "A npm package to handle logs",
+	"version": "1.2.0",
+	"description": "A lightweight, zero-dependency logger for Node.js",
 	"main": "index.js",
-	"scripts": {},
-	"bin": "./index.js",
+	"files": [
+		"index.js",
+		"CHANGELOG.md",
+		"README.md"
+	],
+	"scripts": {
+		"test": "NODE_ENV=test jest"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/makstyle119/node-error-logger.js.git"
 	},
 	"keywords": [
-		"Node",
-		"Logger",
-		"Node.js-Log",
-		"Node-Logger.js",
-		"Node-Error",
-		"Node-Error-Log",
-		"Node-Error-Logger"
+		"node",
+		"logger",
+		"error",
+		"logging",
+		"nodejs"
 	],
 	"author": "Mohammad Moiz Ali (MAKSTYLE119)",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/makstyle119/node-error-logger.js/issues"
 	},
-	"homepage": "https://github.com/makstyle119/node-error-logger.js#readme"
+	"homepage": "https://github.com/makstyle119/node-error-logger.js#readme",
+	"devDependencies": {
+		"jest": "^29.0.0"
+	}
 }
