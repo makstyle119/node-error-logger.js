@@ -188,9 +188,9 @@ New features are:
 
 ### ❌ This package is NOT:
 
-* A replacement for Winston or Pino
-* A plugin-based logging framework
-* Designed for massive distributed systems
+* A replacement for Winston or Pino.
+* A plugin-based logging framework.
+* Designed for massive distributed systems.
 
 If you need advanced transports or integrations, a full-featured logger may be a better fit.
 
